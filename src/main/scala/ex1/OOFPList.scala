@@ -1,5 +1,7 @@
 package ex1
 
+// 
+
 // List as a pure interface
 enum List[A]:
   case ::(h: A, t: List[A])
